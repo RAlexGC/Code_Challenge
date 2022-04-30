@@ -2,7 +2,7 @@ const Reader = require('../../lib/utils/Reader')
 
 describe("Tests para Reader", () => {
     test("Leyendo archivo JSON", () => {
-        const students = Reader.readJsonFile("test/test_file.json")
+        const students = Reader.readJsonFile("test_file.json")
         expect(students).toStrictEqual([
             {
               "id": "6264d5d89f1df827eb84bb23",
