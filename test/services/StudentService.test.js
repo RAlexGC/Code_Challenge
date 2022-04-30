@@ -3,8 +3,7 @@ const StudentService = require('../../lib/services/StudentService')
 
 describe("Tests para Student Service", () => {
     test("Filtro por certificado", () => {
-        const students = Reader.readJsonFile("test/test_file.json");
-        const studentsWithCertificate = StudentService.filterByCertification(students);
+        const studentsWithCertificate = StudentService.filterByCertification("test/test_file.json");
         expect(studentsWithCertificate).toStrictEqual([
             {
               "id": "6264d5d89f1df827eb84bb23",
@@ -21,13 +20,11 @@ describe("Tests para Student Service", () => {
         ])
     });
     test("Obtener email de estudiantes con certificado", () => {
-        const students = Reader.readJsonFile("test/test_file.json");
-        const studentEmailsWC = StudentService.getEmails(students);
+        const studentEmailsWC = StudentService.getEmails("test/test_file.json");
         expect(studentEmailsWC).toStrictEqual(['Todd@visualpartnership.xyz']);
     });
     test("Obtener estudiantes con créditos mayores a 500", () => {
-        const students = Reader.readJsonFile("test/test_file.json");
-        const studentsOver500c = StudentService.getStudentsOver500c(students);
+        const studentsOver500c = StudentService.getStudentsOver500c("test/test_file.json");
         expect(studentsOver500c).toStrictEqual([
             {
                 "id": "6264d5d85cf81c496446b67f",
