@@ -24,6 +24,9 @@ El proyecto cuenta con una utilidad `Reader` que se utiliza para leer archivos J
 
 >Este API tiene habilitados tres endpoints:
 |Endpoint|Descripción|
+|---|---|
 |`localhost:3000/v1/students`|Aquí se puede consultar la lista completa de estudiantes con todos sus campos|
 |`localhost:3000/v1/students/withcertification`|Aquí se pueden consultar los emails de los estudiantes que tienen certificación|
 |`localhost:3000/v1/students/over500c`|Aquí se pueden consultar los estudiantes que tienen más de 500 créditos|
+
+![Code_Challenge](https://user-images.githubusercontent.com/99144135/166091251-18154546-9fd2-4064-82be-5327d24d547c.gif)
