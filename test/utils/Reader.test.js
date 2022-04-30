@@ -8,7 +8,7 @@ describe("Tests para Reader", () => {
               "id": "6264d5d89f1df827eb84bb23",
               "name": "Warren",
               "email": "Todd@visualpartnership.xyz",
-              "credits": 508,
+              "credits": 200,
               "enrollments": [
                 "Visual Thinking Intermedio",
                 "Visual Thinking Avanzado"
@@ -25,7 +25,7 @@ describe("Tests para Reader", () => {
                 "Visual Thinking Avanzado"
               ],
               "previousCourses": 6,
-              "haveCertification": true
+              "haveCertification": false
             }
         ])
     })
