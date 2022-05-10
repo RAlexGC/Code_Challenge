@@ -124,6 +124,11 @@ app.listen(port, () => {
     console.log(`Visual Thinking API in localhost:${port}`);
 });
 ```
+Para ejecutar el servidor utilizar el comando:
+
+```
+npm run server
+```
 
 ## Uso del API
 
